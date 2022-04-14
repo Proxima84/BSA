@@ -16,12 +16,12 @@ x(double) y(double) vx(double) vy(double) id(int)
 
 Output files
 
-out_###i_k - particle positions at the time of data output, i - time moment, k - thread number
+out_###i_k - particle positions at the time of data output; i - time moment; k - thread number;
 x(double) y(double) vx(double) vy(double) id(int) dC/C(double) 
 
 remove/remove_k
 time(double) x(double) y(double) vx(double) vy(double) id(int) dC/C(double) type(int)
 
-time - time of particle leaving the system
-dC/C - relative change in the value of the Jacobi integral
-type - 0-accretion, 1-scattering
+time - time of particle leaving the system;
+dC/C - relative change in the value of the Jacobi integral;
+type - 0-accretion, 1-scattering;
